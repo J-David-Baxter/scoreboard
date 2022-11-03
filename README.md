@@ -4,3 +4,4 @@
 
 1. Sets home and way score with buttons
 2. Resets both scores with reset button
+3. Highlight winning team with text underline
