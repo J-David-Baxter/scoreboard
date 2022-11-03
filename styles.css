@@ -57,7 +57,7 @@ body {
 }
 
 .highlight {
-    border: 2px solid green;
+    text-decoration: underline;
 }
 
 #reset-btn {
