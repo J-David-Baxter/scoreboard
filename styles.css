@@ -1,7 +1,14 @@
 body {
    box-sizing: border-box;
    text-align: center;
-   background-color: #9AABD8; 
+   background-color: #9AABD8;
+}
+
+.display-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
 }
 
 .scoreboard-container {
@@ -9,8 +16,7 @@ body {
     border: 10px solid white;
     width: 600px;
     height: 400px;
-    margin: 0 auto;
-    margin-top: 50px;
+    margin: 50px auto;
     background: #1B244A;
     border-radius: 10px;
 }
