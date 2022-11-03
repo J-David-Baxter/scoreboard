@@ -19,6 +19,7 @@ body {
     margin: 50px auto;
     background: #1B244A;
     border-radius: 10px;
+    box-shadow: 10px 10px 15px;
 }
 
 .team-section {
@@ -32,28 +33,33 @@ body {
 }
 
 .score-section {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: 150px;
     background: #080001;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid #9AABD8;
+    border-radius: 10px;
 }
 
 .score {
     font-weight: 400px;
     font-size: 90px;
     color: #F94F6D;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .score-btn {
     border: 2px solid #9AABD8;
     background: #1B244A;
     color: #9AABD8;
-    margin: 25px 0 0 0;
+    margin: 25px 2px 0 2px;
     width: 40px;
     height: 40px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .score-btn:hover {
